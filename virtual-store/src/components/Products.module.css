@@ -1,0 +1,36 @@
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    width: 70%;
+    text-align:center;
+    justify-content: center;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+p {
+    text-align: auto;
+    padding: 1px;
+    font-size: 16px;
+    margin-left: 80px;    
+}
+
+img {
+    width: 75%;
+    height: 50%;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    margin-top: 15px;
+}

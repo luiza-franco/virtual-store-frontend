@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content:center;
+    background-color: #f1e8e9;
+    padding: 2em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    margin-right: 2em;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.item a {
+    color:#000000;
+    text-decoration: none;
+}

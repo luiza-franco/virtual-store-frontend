@@ -1,0 +1,25 @@
+.body {
+    display: flex;
+    justify-content:center;
+    background-color: #e2dede;
+    padding: 2em;
+    margin-top: 1%;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+}
+
+.item {
+    margin-right: 35px;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 2px;
+    float: left;
+    font-size: 1.5em;
+    cursor: pointer;
+}
