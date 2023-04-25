@@ -1,6 +1,5 @@
 .footer {
-    margin-top: 6%;
-    justify-content: center;
+    margin-top: 4%;
 }
 
 .list {
@@ -20,6 +19,6 @@
 
 .span {
     font-size: 1em;
-    text-align: center;
+    margin-left: 47%;
     margin-top: 25px;
 }

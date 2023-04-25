@@ -1,0 +1,39 @@
+
+.img {
+    width: 450px;
+    height: 450px;
+    float: left;
+    margin-left: 38%;
+    display: inline;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top:15px;
+    left: -75px;
+
+}
+
+.value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333 !important;
+    letter-spacing: 1px;
+    position: relative;
+    top:30px;
+    left: -75px;
+}
+
+.description {
+    position: relative;
+    top: 330px;
+    right: 650px;
+}
+
+.button {
+    position: relative;
+    top: 20px;
+    right: 100px;
+}

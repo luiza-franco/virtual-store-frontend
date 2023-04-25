@@ -19,7 +19,7 @@ function ListProducts() {
         <>
             <div className={styles.grid}>
                 {products.map((product) =>
-                    <Products product={product}/>
+                 <Products product={product} key={product.id}/>
                 )}
             </div>
 

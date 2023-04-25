@@ -1,9 +1,11 @@
 .body {
+    width: 100%;
     display: flex;
     justify-content:center;
     background-color: #e2dede;
-    padding: 2em;
-    margin-top: 1%;
+    padding: 4em;
+    position: relative;
+    top: 40px;
 }
 
 .list {

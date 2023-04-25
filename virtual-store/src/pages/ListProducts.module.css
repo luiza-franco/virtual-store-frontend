@@ -5,10 +5,10 @@ justify-content: center;
 grid-template-areas:    
 "product product product"                                                                                       
 "product product product";
-grid-auto-rows:30rem;
+grid-auto-rows:20rem;
 grid-auto-columns:20rem;
-grid-gap: 25px;
-line-height: 30px;
+grid-gap: 30px;
+line-height: 20px;
 margin-left: 12rem;
 margin-top: 1.5rem;
 }

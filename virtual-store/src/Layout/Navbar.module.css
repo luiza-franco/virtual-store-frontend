@@ -1,7 +1,10 @@
+    
+
 .navbar {
     display: flex;
-    justify-content:center;
-    background-color: #f1e8e9;
+    text-align: center;
+    justify-content: center;
+    background-color: #efefef;
     padding: 2em;
 }
 
@@ -17,6 +20,6 @@
 }
 
 .item a {
-    color:#000000;
+    color: #000000;
     text-decoration: none;
 }

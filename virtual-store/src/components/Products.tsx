@@ -1,5 +1,4 @@
 import "./Products.module.css"
-import Button from "../evento/Button";
 
 interface ProductProps {
     product: {  
@@ -7,6 +6,7 @@ interface ProductProps {
         description: string;
         value: number;
         image: string;
+        id: string;
     }
 
 }
@@ -16,11 +16,11 @@ function Products({product}: ProductProps) {
         <div>
             <img src={product.image} alt="imagem do produto" />
             <h1>{product.title}</h1>
-            <h2>{product.description}</h2>
-            <p>R${product.value}</p>
-            <Button/>
+            <a className="button" href={`/products/${product.id}`}><button>COMPRAR</button></a>
         </div>  
     )
 }
 
+//<h2>{product.description}</h2>
+//<p>R${product.value}</p>
 export default Products
